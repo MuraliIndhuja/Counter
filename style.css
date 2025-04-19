@@ -1,0 +1,30 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+#countLabel{
+    font-size: 80px;
+    display: block;
+    text-align: center;
+    font-family:sans-serif;
+    color:springgreen;
+    margin: 100px;
+}
+.containerBtn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+button{
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #000;
+    color: springgreen;
+    border: 1px solid #fff;
+}
